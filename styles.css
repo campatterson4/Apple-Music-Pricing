@@ -6,6 +6,7 @@
     --cream: #FEFBEA;
     --pink: #f94c57;
     --red: #fc3c44;
+    --white: #F9F6EE
 }
 
 * {
@@ -16,4 +17,24 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: var(--grey);
 }
+
+/* ---- CONTAINER ---- */
+
+.container {
+    display: flex;
+    margin: 10rem auto;
+    padding: 3rem;
+    min-height: 50vh;
+    width: 50%;
+    background-color: var(--white);
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+.container h2 {
+    
+}
+
