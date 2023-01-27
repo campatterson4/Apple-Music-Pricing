@@ -41,6 +41,7 @@ body {
     margin-top: 1rem;
     color: var(--cream);
     font-size: 2.1rem;
+    letter-spacing: 1px;
 }
 
 .container p {
@@ -70,11 +71,17 @@ body {
 
 
 /* PRICE COLUMNS */
-
-.price-column {
-    margin-left: 4rem;
+.price-area {
+    padding: 2rem;
 }
 
+
+.price-column {
+    /* margin-left: 4rem; */
+}
+
+
+/* MEDIA QUERIES */
 
 @media screen and (max-width: 80rem) {
     .container {
@@ -92,10 +99,6 @@ body {
         opacity: 0;
     }
 }
-
-
-
-
 
 @media screen and (max-width: 60rem) {
     .container {
