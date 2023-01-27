@@ -1,0 +1,19 @@
+/* ---- ALL ---- */
+
+:root {
+    --black: #424242;
+    --grey: #d3d3d3;
+    --light-grey: #f0f0f0;
+    --cream: #FEFBEA;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(to top, #fefbea, #fceee6, #f0e4e4, #e0dcde, #d3d3d3);
+}
