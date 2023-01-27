@@ -2,11 +2,11 @@
 
 :root {
     --black: #424242;
-    --grey: #c2cad7;
+    --grey: #E7EBEE;
     --cream: #FEFBEA;
     --pink: #f94c57;
     --red: #fc3c44;
-    --white: #F9F6EE
+    --white: #F9F6EE;
 }
 
 * {
@@ -24,9 +24,9 @@ body {
 
 .container {
     display: flex;
-    margin: 10rem auto;
+    margin: 6.5rem auto;
     padding: 3rem;
-    min-height: 50vh;
+    min-height: 70vh;
     width: 50%;
     background-color: var(--white);
     border-radius: 20px;
