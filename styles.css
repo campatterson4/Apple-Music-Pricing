@@ -24,17 +24,89 @@ body {
 
 .container {
     display: flex;
-    margin: 6.5rem auto;
+    margin: 5rem auto;
     padding: 3rem;
-    min-height: 70vh;
-    width: 50%;
+    min-height: 80vh;
+    max-height: 80vh;
+    width: 70%;
     background-color: var(--white);
     border-radius: 20px;
     box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-
+    overflow: hidden !important;
 }
 
 .container h2 {
-    
+    text-align: center;
+    padding: 1rem;
+    margin-top: 1rem;
+    color: var(--cream);
+    font-size: 2.1rem;
 }
 
+.container p {
+    color: var(--white);
+    font-size: .8rem;
+    text-align: center;
+    width: 90%;
+    padding: 1rem;
+    margin-left: 1rem;
+}
+
+.main-left {
+    background-color: var(--pink);
+    width: 40%;
+    height: 30rem;
+    border-radius: 15px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.app {
+    position: relative;
+    height: 22rem;
+    width: 22rem;
+    padding: 2rem;
+    margin-bottom: 6rem !important;
+}
+
+
+/* PRICE COLUMNS */
+
+.price-column {
+    margin-left: 4rem;
+}
+
+
+@media screen and (max-width: 80rem) {
+    .container {
+        padding: 1rem;
+    }
+    .container h2 {
+        font-size: 1rem;
+        margin: 0 auto;
+    }
+    .container p {
+        text-align: center;
+        margin: 0 auto;
+    }
+    .container .app {
+        opacity: 0;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 60rem) {
+    .container {
+        padding: 1rem;
+    }
+    .container h2 {
+        font-size: 1rem;
+        margin: 0 auto;
+    }
+    .container p {
+        text-align: center;
+        margin: 0 auto;
+    }
+}
