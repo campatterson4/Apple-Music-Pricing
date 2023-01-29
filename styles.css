@@ -100,6 +100,12 @@ ul {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 
+.price-column1 span {
+    margin-left: 3rem;
+    font-size: .7rem;
+    color: var(--pink);
+}
+
 /* ---- COLUMN 2 ---- */
 .price-column2 {
     background-color: var(--pink);
@@ -109,8 +115,12 @@ ul {
 
 .price-column2 h2 {
     color: var(--white) !important;
-    /* border-bottom: 2px solid var(--white);
-    width: 10%; */
+}
+
+.price-column2 span {
+    margin-left: 3rem;
+    font-size: .7rem;
+    color: var(--black);
 }
 
 
