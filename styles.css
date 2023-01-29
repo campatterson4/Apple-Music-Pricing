@@ -216,10 +216,11 @@ ul {
         opacity: 0;
     }
     .main-left h2 {
-        font-size: 4rem;
+        font-size: 3rem;
     }
     .main-left p {
         font-size: 1rem;
+        margin-top: -1rem;
     }
     .price-column1 h4,
     .price-column2 h4 {
@@ -231,8 +232,6 @@ ul {
     .price-column2 span {
         margin-right: 10rem;
     }
-    .price-column2 h4 {
-    }
     .price-column2 ul {
         font-size: .7rem;
     }
@@ -241,28 +240,27 @@ ul {
 
 
 @media all and (max-width: 1072px) {
-    .container {
-        padding: 1rem;
-    }
-    .container h2 {
-        font-size: 1rem;
-        margin: 0 auto;
-    }
-    .container p {
-        text-align: center;
-        margin: 0 auto;
-    }
     .container .app {
         opacity: 0;
     }
-    .price-column2 span {
-        color: blue;
+ }
+
+@media all and (max-width: 1060px) {
+    .container {
+        background-color: black;
+        display: flex;
+        flex-direction: column;
     }
- }
-
-@media all and (min-width: 480px) and (max-width: 768px) {
-
- }
+    .main-left {
+        margin-top: 2rem;
+        width: 70vw;
+        height: 15vh;
+    }
+    .main-left h2 {
+        font-size: 2rem;
+        margin-top: -.1rem;
+    }
+}
 
 @media all and (max-width: 480px) {
 
