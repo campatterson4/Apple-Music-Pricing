@@ -90,8 +90,6 @@ ul {
 .price-area h2 {
     text-align: left;
     color: var(--black) !important;
-    /* border-bottom: 2px solid var(--black);
-    width: 10%; */
 }
 
 /* ---- COLUMN 1 ----  */
@@ -105,6 +103,12 @@ ul {
     font-size: .7rem;
     color: var(--pink);
 }
+
+.price-column1 h4,
+.price-column1 ul {
+    color: var(--black);
+}
+
 
 /* ---- COLUMN 2 ---- */
 .price-column2 {
@@ -123,7 +127,6 @@ ul {
     color: var(--black);
 }
 
-
 /* ---- BOTH COLUMNS ---- */
 .price-column1,
 .price-column2 {
@@ -141,6 +144,7 @@ ul {
 
 .price-column1 h4,
 .price-column2 h4 {
+    margin-top: -1rem;
     margin-bottom: 1rem;
     letter-spacing: 1.2px;
     text-transform: uppercase;
@@ -148,7 +152,96 @@ ul {
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width: 80rem) {
+@media all and (max-width: 1340px) { 
+    .price-column1 h4 {
+        margin-top: -1.3rem;
+    }
+    .price-column2 span {
+        margin-left: -2rem !important;
+    }
+    .price-column2 h4{
+        margin-top: -1.3rem;
+    }
+}
+
+@media all and (max-width: 1282px) {
+    .price-column1 ul {
+        font-size: .6rem;
+    }
+    .price-column1 h4 {
+        font-size: .7rem;
+    }
+    .price-column2 ul {
+        font-size: .6rem;
+    }
+    .price-column2 h4 {
+        font-size: .66rem;
+    }
+   .main-left .app {
+        margin: 0 auto;
+    }
+}
+
+@media all and (max-width: 1200px) {
+    .price-column1 h2 {
+        font-size: 1.5rem;
+    }
+    .price-column1 h4 {
+        font-size: .5rem;
+        margin-top: -1rem;
+    }
+    .price-column1 span {
+        margin-top: -7rem !important;
+    }
+    .price-column2 ul {
+        font-size: .6rem;
+    }
+    .price-column2 h2 {
+        font-size: 1.5rem;
+    }
+    .price-column2 h4 {
+        font-size: .5rem;
+        margin-top: -1rem;
+    }
+    .main-left .app {
+        margin: 0 auto;
+    }
+}
+
+@media all and (max-width: 1175px) {
+    .main-left {
+        width: 20vw;
+    }
+    .main-left .app {
+        opacity: 0;
+    }
+    .main-left h2 {
+        font-size: 4rem;
+    }
+    .main-left p {
+        font-size: 1rem;
+    }
+    .price-column1 h4,
+    .price-column2 h4 {
+        font-size: .9rem;
+    }
+    .price-column1 ul {
+        font-size: .8rem;
+    }
+    .price-column2 span {
+        margin-top: 3rem;
+    }
+    .price-column2 h4 {
+       margin-top: 1.9rem;
+    }
+    .price-column2 ul {
+        font-size: .7rem;
+    }
+}
+
+
+
+@media all and (max-width: 1072px) {
     .container {
         padding: 1rem;
     }
@@ -163,18 +256,15 @@ ul {
     .container .app {
         opacity: 0;
     }
-}
+    .price-column2 span {
+        color: blue;
+    }
+ }
 
-@media screen and (max-width: 60rem) {
-    .container {
-        padding: 1rem;
-    }
-    .container h2 {
-        font-size: 1rem;
-        margin: 0 auto;
-    }
-    .container p {
-        text-align: center;
-        margin: 0 auto;
-    }
-}
+@media all and (min-width: 480px) and (max-width: 768px) {
+
+ }
+
+@media all and (max-width: 480px) {
+
+ }
